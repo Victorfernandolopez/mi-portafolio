@@ -1,0 +1,51 @@
+/* estilos generales */
+
+/* todo el documento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* estilos para el body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* estilos para el encabezado */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+#header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+#header p {
+    font-size: 1.2em;
+}
+
+/* Estilos para la barra de navegación */
+#nav {
+    margin-top: 20px;
+}
+#nav ul {
+    list-style-type: none;
+}
+#nav ul li {
+    display: inline-block;/* permite que los elementos se coloquen en linea recta */
+    margin-right: 20px;
+}
+#nav ul li a {
+    color: white;
+    text-decoration: none;/* elimina cualquier decoracion aplicada al texto */
+    font-size: 1.1em;
+}
+#nav ul li a:hover {
+    text-decoration: underline;/* :hover se utiliza para aplicar estilos a un elemento cuando el cursor se coloca sobre el */
+}
+
